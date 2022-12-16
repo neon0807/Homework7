@@ -5,8 +5,10 @@ public class Book {
     private Author author;
 
 
+
     public Book(String name, Author author, int publishingYear) {
         this.name = name;
+        this.author = author;
         this.publishingYear = publishingYear;
     }
 
